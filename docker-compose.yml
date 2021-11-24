@@ -2,30 +2,12 @@
 version: '3.1'
 
 services:
-  mongo-users:
+  mongo-db:
     image: mongo
     restart: always
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_DATABASE: project1-users
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
-  mongo-accounts:
-    image: mongo
-    restart: always
-    ports:
-      - 27018:27017
-    environment:
-      MONGO_INITDB_DATABASE: project1-users
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root
-  mongo-products:
-    image: mongo
-    restart: always
-    ports:
-      - 27019:27017
-    environment:
-      MONGO_INITDB_DATABASE: project1-users
+      MONGO_INITDB_DATABASE: project1
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
