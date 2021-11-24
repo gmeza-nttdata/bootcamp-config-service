@@ -8,3 +8,4 @@ spring:
       server:
         git:
           uri: https://github.com/gmeza-nttdata/bootcamp-project1-config-data.git
+          default-label: main
