@@ -11,7 +11,7 @@
 	<groupId>com.nttdata.bootcamp</groupId>
 	<artifactId>config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>project1.config</name>
+	<name>config-service</name>
 	<description>Config Project project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
